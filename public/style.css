@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f3f8;
+    color: #1b1b2f;
+    margin: 0;
+    padding: 2rem;
+}
+
+h1 {
+    color: #2e6f9e;
+}
+
+.author-card,
+form {
+    background: white;
+    border: 1px solid #d6dae6;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.author-card {
+    border-left: 6px solid #1b998b;
+}
+
+.book {
+    background: #f1f3f8;
+    padding: 0.6rem;
+    margin: 0.4rem 0;
+    border-radius: 6px;
+}
+
+input,
+select,
+button {
+    padding: 0.6rem;
+    margin: 0.25rem;
+    border-radius: 5px;
+}
+
+button {
+    background: #2e6f9e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
